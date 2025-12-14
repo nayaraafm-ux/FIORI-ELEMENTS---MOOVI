@@ -1,0 +1,2 @@
+sap.ui.define([],function(){"use strict";return{onInitSmartFilterBarExtension:function(e){var t=ap.ushell.Container.getService("UserInfo").getId(),i={Userid:t};this.byId("listReportFilter").setFilterData(i);this.byId("listReportFilter").determineFilterItemByName("UserId").setVisibleInFilterBar(false)}}});
+//# sourceMappingURL=ListReportExt.controller.js.map
